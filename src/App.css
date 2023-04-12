@@ -1,0 +1,14 @@
+#App,
+.leftSideBox {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 100vh;
+}
+
+.leftSideBox {
+  flex-direction: column;
+  justify-content: flex-start;
+  flex-grow: 1;
+}

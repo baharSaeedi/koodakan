@@ -1,0 +1,38 @@
+.sideBar {
+  width: 15vw;
+  height: 100vh;
+  background: #0c213a;
+}
+
+.logo {
+  background-image: url("../../assets/logo.webp");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 150px;
+}
+
+.linksBox {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  padding: 0 30px;
+}
+
+.linksBox > a {
+  color: #a9baca;
+  text-decoration: none;
+  margin: 20px 0;
+}
+
+.linksBox > a:hover {
+  color: #e6e6e6;
+}
+
+@media (max-width: 850px) {
+  .sideBar {
+    display: none;
+  }
+}
